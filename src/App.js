@@ -1,13 +1,9 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import './App.css';
+import Home from './pages/Home';
 
 function App() {
-  return (
-    <>
-      <div>첫번째 박스</div>
-      <div>두번째 박스</div>
-    </>
-  );
+  return <Home />;
 }
 
 export default App;
