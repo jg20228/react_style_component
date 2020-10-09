@@ -4,13 +4,14 @@ import styled from 'styled-components';
 const Search = () => {
   const SearchStyle = styled.div`
     width: 430px;
-    height: 500px;
     display: inline-block;
     background-color: white;
     position: relative;
-    top: 10px;
-    left: 50px;
+    top: 30px;
+    left: 100px;
     padding: 20px 30px;
+    box-shadow: 0 2px 2px 0 rgb(214, 214, 214);
+    border-radius: 10px;
   `;
 
   const SearchTitleStyle = styled.div`

@@ -5,7 +5,7 @@ import Search from './Search';
 const Header = () => {
   const HeaderStyle = styled.div`
     background-image: url('images/background.jpg');
-    height: 880px;
+    height: 750px;
     background-size: 100% 100%;
   `;
 
@@ -13,7 +13,7 @@ const Header = () => {
     display: grid;
     grid-template-columns: auto auto;
     justify-content: space-between;
-    padding: 10px;
+    padding: 20px;
   `;
 
   const MenuStyle = styled.ul`
@@ -30,7 +30,7 @@ const Header = () => {
     font-size: 25px;
     font-weight: 800;
   `;
-  const Section1Style = styled.div``;
+  const SectionStyle = styled.div``;
 
   return (
     <HeaderStyle>
@@ -43,9 +43,9 @@ const Header = () => {
           <li>로그인</li>
         </MenuStyle>
       </NavStyle>
-      <Section1Style>
+      <SectionStyle>
         <Search />
-      </Section1Style>
+      </SectionStyle>
     </HeaderStyle>
   );
 };
